@@ -1,0 +1,14 @@
+helpful links for the project
+Imaages to MPEG4
+https://cooltrickshome.blogspot.com/2016/12/images-to-movie-converter-using-java.html
+javacv code
+https://github.com/bytedeco/javacv/blob/master/src/main/java/org/bytedeco
+greyscale Histograms
+https://stackoverflow.com/questions/14608238/javacv-compare-2-histograms
+General Histograms
+https://docs.opencv.org/2.4/modules/imgproc/doc/histograms.html?highlight=comparehist#comparehist
+COMPARE HISTOGRAMS
+https://stackoverflow.com/questions/15771512/compare-histograms-of-grayscale-images-in-opencv
+What is a histograms
+https://docs.opencv.org/3.4/d8/dbc/tutorial_histogram_calculation.html
+
