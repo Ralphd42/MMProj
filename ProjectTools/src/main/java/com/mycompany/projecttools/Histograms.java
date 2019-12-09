@@ -23,7 +23,9 @@ import org.opencv.imgproc.Imgproc;
  */
 public class Histograms {
     public static Mat getHistMatGrey(Mat image){
-        cvtColor(image, image, Imgproc.COLOR_RGB2GRAY);
+        if(image.channels()==3){
+            cvtColor(image, image, Imgproc.COLOR_RGB2GRAY);
+        }
         IntPointer sz=new IntPointer(new int[]{256});
         IntPointer chn=new IntPointer(new int[]{0});
         final float[] ranges = {0f,256f}; 
